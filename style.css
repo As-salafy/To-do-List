@@ -1,0 +1,74 @@
+
+body {
+    font-family: sans-serif;
+  }
+  
+  form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ddd;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    flex: 1;
+  }
+  
+  input[type="submit"] {
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(235, 63, 0);
+  }
+  
+  .taskList {
+    background-color: #ddd;
+    min-height: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .task {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .delAll {
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 50%;
+    height: 70%;
+  }
